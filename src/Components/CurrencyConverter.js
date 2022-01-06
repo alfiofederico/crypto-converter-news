@@ -24,7 +24,7 @@ function CurrencyConverter() {
       },
       headers: {
         "x-rapidapi-host": "alpha-vantage.p.rapidapi.com",
-        "x-rapidapi-key": "9ce7885d3bmshfcfb9485dba8f27p18dd02jsn68d5f6e30fd8",
+        "x-rapidapi-key": process.env.REACT_APP_RAPID_API_KEY,
       },
     };
 
